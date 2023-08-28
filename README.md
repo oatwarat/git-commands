@@ -129,7 +129,7 @@ test/
    ```
 4. **Undo "git add":** If `main.py` has been added to the staging area (`git add main.py`), remove it from the staging area:
    ```
-   git diff --cached file_name
+  git reset main.py
    ```
 5. **Recover a file:** Command to replace your working copy of `a.py` with the most recent (HEAD) version in the repository.  This also works if you have deleted your working copy of this file.
    ```
